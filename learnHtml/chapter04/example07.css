@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+*{padding:0; margin:0;}
+.all{width:210px;
+	height:265px;
+	border:1px solid #F00;
+	margin:50px auto;
+	text-align:center;
+}
+.header{font-size:18px;
+		font-family:"微软雅黑";
+		height:40px;
+		line-height:40px;
+		border-bottom:1px dashed #0F0;
+}
+.text p{font-size:14px;
+		color:#00F;
+		height:24px;
+		line-height:24px;
+}
