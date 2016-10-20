@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CSS控制表单样式</title>
+<style type="text/css">
+body{font-size:12px; font-family:"宋体";}
+body,form,input{padding:0; margin:0; border:0;}
+form{
+	width:300px;
+	height:135px;
+	padding-top:15px;
+	margin:50px auto;
+	background:#DCF5FA;
+}
+p{
+	width:273px;
+	height:24px;
+	padding-left:25px;
+	margin-bottom:15px;
+}
+span{
+	display:inline-block;
+	width:70px;
+	height:24px;
+	line-height:24px;
+	text-align:right;
+}
+.num,.pass{
+	width:152px;
+	height:18px;
+	border:1px solid #38a1bf;
+	padding:2px 2px 2px 22px;
+}
+.num{color:#999;}
+.btn{
+	display:inline-block;
+	width:87px;
+	height:24px;
+	margin:10px 0 10px 101px;
+}
+</style>
+</head>
+
+<body>
+<form action="#" method="post">
+	<p>
+    	<span class="left">账号/号码:</span>
+        <input type="text" value="itcast" class="num" />
+    </p>
+    <p>
+    	<span class="left">密码:</span>
+        <input type="password" class="pass" />
+    </p>
+    	<input type="button" class="btn"  value="确认"/>
+</form>
+</body>
+</html>

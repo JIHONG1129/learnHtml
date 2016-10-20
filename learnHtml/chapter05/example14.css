@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,ul,li,img,p{padding:0; margin:0; list-style:none; border:0;}
+body{font-size:14px; font-family:Arial, Helvetica, sans-serif,"宋体"; color:#FFF;}
+<!--整体控制!-->
+.all{
+	width:952px;
+	height:175px;
+	margin:50px auto;
+	padding:0 14px;
+	background:#F6F3E9;
+	border:1px solid #CCC;
+}
+/* 控制标题和播放按钮*/
+.txt{
+	height:50px;
+	line-height:50px;
+	color:#808080;
+}
+.txt h2{
+	width:175px;
+	padding-left:32px;
+	font-size:16px;
+	float:left;
+}
+.txt a{
+	display:inline-block;
+	width:60px;
+	padding-left:25px;
+	float:right;
+	font-weight:bold;
+	font-size:14px;
+}
+.txt a:link,.txt a:visited{
+	color:#A84848;
+	text-decoration:none;
+}
+.txt a:hover{
+	color:#000;
+}
+.con li{
+	width:148px;
+	height:105px;
+	float:left;
+	padding:20px 0 0 90px;
+}
+.radio h2,.song h2,.album h2,.mv h2{font-size:44px; color:#F00;}
+.radio p,.song p,.album p,.mv p{line-height:22px; color:#0F0;}
+.radio a:link,.radio a:visited,.song a:link,.song a:visited,.album a:link,.album a:visited,.mv a:link,.nv a:visited{
+	color:#808080;
+	text-decoration:none;
+}
